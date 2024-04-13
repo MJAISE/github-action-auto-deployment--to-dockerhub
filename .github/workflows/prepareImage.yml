@@ -18,6 +18,6 @@ jobs:
       - name: Build and push Docker image
         uses: docker/build-push-action@v4
         with:
-          context: DockerFile/
+          context: DockerFiles/
           push: true
           tags: mja81code/test-with-github-actions:v1.0.0
